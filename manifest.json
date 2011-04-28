@@ -1,6 +1,6 @@
 {
 	"name": "Cloud LIU IME",
-	"version": "0.0.3",
+	"version": "0.0.3.1",
 	"permissions": [	
     	"tabs"
     ],
@@ -20,7 +20,7 @@
 			"matches": ["<all_urls>"],
 			"css": ["liuime.css"],
 			"js": ["liuime.js"],
-			"run_at" : "document_end"
+			"run_at" : "document_idle"
 		}
 	]
 }

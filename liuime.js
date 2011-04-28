@@ -253,89 +253,87 @@ function addbar()
 }
 var count = 0;
 var iframe;
-function liu_scan(a)
+function liu_scan(nodes)
 {
 	count++;
-	var b;
-	for (var i=0;i<a.length;i++)
+	var node;
+	for (var i=0;i<nodes.length;i++)
 	{		
-		b = a[i];
-		if (b.nodeType==1)
+		node = nodes[i];
+		if (node.nodeType==1)
 		{
-			if (b.install)
+			if (node.install)
 			{
 				continue;
 			}
-			if ((b.type=="text" || b.type=='textarea') && iframe)
+			if ((node.type=="text" || node.type=='textarea') && iframe)
 			{
-				b.onkeypress=function(event){
-					liu_keypress(event,b);
+				node.onkeypress=function(event){
+					liu_keypress(event,node);
 				}
-				b.onkeydown = function(event){
-					liu_keydown2(event,b);
+				node.onkeydown = function(event){
+					liu_keydown2(event,node);
 				}
-				b.onkeyup = function(event){
-					liu_keyup2(event,b);
+				node.onkeyup = function(event){
+					liu_keyup2(event,node);
 				}
-				b.install = true;
+				node.install = true;
 			}
-			else if (b.type=="text" || b.type=='textarea' && !iframe)
+			else if (node.type=="text" || node.type=='textarea' && !iframe)
 			{
-				console.log(b.type);
-				b.onfocus = function(event){					
-					click_info(event,b);
+				node.onfocus = function(event){					
+					click_info(event,node);
 				}
-				b.install = true;
+				node.install = true;
 			}
-			else if (b!=null)
+			else if (node!=null)
 			{
-				if (b.tagName=="IFRAME")
+				if (node.tagName=="IFRAME")
 				{
-					if(b.contentDocument)
+					if(node.contentDocument)
 					{
-						var c = b.contentDocument;
+						var liu_frame = node.contentDocument;
 						var m
-						if (c.body!=null)
+						if (liu_frame.body!=null)
 						{
-							m = c.body.getAttribute("contenteditable");
+							m = liu_frame.body.getAttribute("contenteditable");
 						}
-						if ((m ||c.body.isContentEditable)&& !c.install)
+						if ((m ||liu_frame.body.isContentEditable)&& !liu_frame.install)
 						{
-							c.onkeypress=function(event){
-								liu_keypress(event,c);
+							liu_frame.onkeypress=function(event){
+								liu_keypress(event,liu_frame);
 							}
-							c.onkeydown = function(event){
-								liu_keydown2(event,c);
+							liu_frame.onkeydown = function(event){
+								liu_keydown2(event,liu_frame);
 							}
-							c.onkeyup = function(event){
-								liu_keyup2(event,c);
+							liu_frame.onkeyup = function(event){
+								liu_keyup2(event,liu_frame);
 							}
-							c.install = true;
+							liu_frame.install = true;
 						}
 						else
 						{
 							iframe = true;
-							liu_scan(c.childNodes);
+							liu_scan(liu_frame.childNodes);
 							iframe = false;
 						}
 					}					
 				}
-				else if (b!=null)
+				else if (node!=null)
 				{
-					var m = b.getAttribute("contenteditable");
-					if ((m || b.isContentEditable) && !iframe)
+					var m = node.getAttribute("contenteditable");
+					if ((m || node.isContentEditable) && !iframe)
 					{
-						console.log(b.tagName+': '+m+'('+count.toString()+')'+b.id);
-						b.onfocus = function(event){
-							click_info(event,b);
+						node.onfocus = function(event){
+							click_info(event,node);
 						}
-						b.install = true;						
+						node.install = true;						
 					}
 					else
 					{
-						if(b.childNodes.length>0)
+						if(node.childNodes.length>0)
 						{
-							liu_scan(b.childNodes);
+							liu_scan(node.childNodes);
 						}
 					}
 				}
@@ -470,10 +468,8 @@ function click_info(e,elem)
 	var actelem = document.activeElement;
 	if (actelem!=elem)
 	{
-		console.log("Different!");
 		elem = actelem;
 	}
-	console.log(elem.type);
 	if (elem.type==undefined)
 	{		
 		elem.onkeypress=function(event){
