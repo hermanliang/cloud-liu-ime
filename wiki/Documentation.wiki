@@ -1,6 +1,7 @@
 #summary 雲端嘸蝦米輸入法說明文件
 #labels Featured
 = 雲．蝦米 說明文件 =
+<hr>
 <font size="4">
 <blockquote>
 <p>雲端嘸蝦米輸入法說明文件</p>
@@ -8,8 +9,9 @@
 <p>文件建立日期：2011/04/28</p>
 </blockquote>
 </font>
-
+<br>
 = 開始使用 =
+<hr>
 <font size="4">
 <p>安裝</p>
 <blockquote>
