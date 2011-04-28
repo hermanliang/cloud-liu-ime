@@ -11,6 +11,7 @@
 <blockquote>
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#安裝">安裝</a></p>
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#界面操作">界面操作</a></p>
+<p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#無法使用?">無法使用?</a></p>
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#停用/解除安裝">停用/解除安裝</a></p>
 </blockquote>
 </blockquote>
@@ -50,6 +51,10 @@
     <p><img src="http://cloud-liu-ime.googlecode.com/files/liu_disable.png" alt="關閉功能列" width="127" height="83" /></p>
     <p>再次點擊輸入法小圖示，即可重新啟動輸入法功能列。</p>
   </blockquote>
+</blockquote>
+==無法使用?==
+<blockquote>
+若無法成功輸入文字，請嘗試「重新整理頁面」或是「重新開啟網頁視窗」，基本上就可以了。
 </blockquote>
 ==停用/解除安裝==
 <blockquote>
