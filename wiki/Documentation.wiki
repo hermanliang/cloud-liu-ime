@@ -1,21 +1,16 @@
-#summary One-sentence summary of this page.
-
+# 雲端嘸蝦米輸入法說明文件
 = 說明文件 =
 <font size="4">
 <blockquote>
 <p>雲端嘸蝦米輸入法說明文件</p>
 <p>目前版本：0.03</p>
+<p>文件建立日期：2011/04/28</p>
 </blockquote>
 </font>
 
 = 開始使用 =
 <font size="4">
-<blockquote>
-  <p><a href="#section1">安裝</a></p>
-  <p><a href="#section2">界面操作</a></p>
-  <p><a href="#section3">停用/解除安裝</a></p>
-</blockquote>
-<p>安裝<a name="section1" id="section1"></a></p>
+<p>安裝</p>
 <blockquote>
   <p>適用環境：Google Chrome瀏覽器。</p>
   <p>安裝： <a href="http://cloud-liu-ime.googlecode.com/files/cloud-liu-ime-0-0-3.crx">下載並安裝擴充功能</a>。</p>
@@ -24,8 +19,7 @@
     <p><img src="http://cloud-liu-ime.googlecode.com/files/liu_enable.png" alt="小圖示" width="127" height="83" /></p>
   </blockquote>
 </blockquote>
-<p align="center"><a href="#top">top</a></p>
-<p>界面操作<a name="section2" id="section2"></a></p>
+<p>界面操作</p>
 <blockquote>
   <p>輸入法功能列</p>
   <blockquote>
@@ -46,8 +40,7 @@
     <p>再次點擊輸入法小圖示，即可重新啟動輸入法功能列。</p>
   </blockquote>
 </blockquote>
-<p align="center"><a href="#top">top</a></p>
-<p>停用/解除安裝<a name="section3" id="section3"></a></p>
+<p>停用/解除安裝</p>
 <blockquote>
   <p>請點選瀏覽器工具列右上角圖示，選擇「工具」-&gt;「擴充功能」。</p>
   <blockquote>
@@ -58,5 +51,4 @@
     <p><img src="http://cloud-liu-ime.googlecode.com/files/liu_uninstall_02.png" alt="停用/解除安裝2" width="641" height="292" /></p>
   </blockquote>
 </blockquote>
-<p align="center"><a href="#top">top</a></p>
 </font>
