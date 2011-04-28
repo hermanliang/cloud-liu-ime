@@ -7,13 +7,19 @@
 <p>雲端嘸蝦米輸入法說明文件</p>
 <p>目前版本：0.0.3</p>
 <p>文件建立日期：2011/04/28</p>
+<p>內容</p>
+<blockquote>
+<p><a href="Documentation#安裝">安裝</a></p>
+<p><a href="Documentation#界面操作">界面操作</a></p>
+<p><a href="#停用/解除安裝">停用/解除安裝</a></p>
+</blockquote>
 </blockquote>
 </font>
 <br>
 = 開始使用 =
 <hr>
 <font size="4">
-<p>安裝</p>
+==安裝==
 <blockquote>
   <p>適用環境：Google Chrome瀏覽器。</p>
   <p>安裝： <a href="http://cloud-liu-ime.googlecode.com/files/cloud-liu-ime-0-0-3.crx">下載並安裝擴充功能</a>。</p>
@@ -22,7 +28,7 @@
     <p><img src="http://cloud-liu-ime.googlecode.com/files/liu_enable.png" alt="小圖示" width="127" height="83" /></p>
   </blockquote>
 </blockquote>
-<p>界面操作</p>
+==界面操作==
 <blockquote>
   <p>輸入法功能列</p>
   <blockquote>
@@ -45,7 +51,7 @@
     <p>再次點擊輸入法小圖示，即可重新啟動輸入法功能列。</p>
   </blockquote>
 </blockquote>
-<p>停用/解除安裝</p>
+==停用/解除安裝==
 <blockquote>
   <p>請點選瀏覽器工具列右上角圖示，選擇「工具」->「擴充功能」。</p>
   <blockquote>
