@@ -7,11 +7,11 @@
 <p>雲端嘸蝦米輸入法說明文件</p>
 <p>目前版本：0.0.3</p>
 <p>文件建立日期：2011/04/28</p>
-<p>內容</p>
+==內容==
 <blockquote>
-<p><a href="Documentation#安裝">安裝</a></p>
-<p><a href="Documentation#界面操作">界面操作</a></p>
-<p><a href="#停用/解除安裝">停用/解除安裝</a></p>
+<p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#安裝">安裝</a></p>
+<p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#界面操作">界面操作</a></p>
+<p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#停用/解除安裝">停用/解除安裝</a></p>
 </blockquote>
 </blockquote>
 </font>
