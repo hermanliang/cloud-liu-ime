@@ -9,6 +9,7 @@
 <p>文件建立日期：2011/04/28</p>
 ==內容==
 <blockquote>
+[Documentation#安裝]
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#安裝">安裝</a></p>
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#界面操作">界面操作</a></p>
 <p><a href="http://code.google.com/p/cloud-liu-ime/wiki/Documentation#停用/解除安裝">停用/解除安裝</a></p>
