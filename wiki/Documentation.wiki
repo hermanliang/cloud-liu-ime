@@ -45,7 +45,7 @@
 </blockquote>
 <p>停用/解除安裝</p>
 <blockquote>
-  <p>請點選瀏覽器工具列右上角圖示，選擇「工具」-&gt;「擴充功能」。</p>
+  <p>請點選瀏覽器工具列右上角圖示，選擇「工具」->「擴充功能」。</p>
   <blockquote>
     <p><img src="http://cloud-liu-ime.googlecode.com/files/liu_uninstall_01.png" alt="停用/解除安裝1" width="580" height="473" /></p>
   </blockquote>
