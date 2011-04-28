@@ -1,4 +1,5 @@
 #summary 雲端嘸蝦米輸入法說明文件
+#labels Featured
 = 說明文件 =
 <font size="4">
 <blockquote>
